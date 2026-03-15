@@ -6,7 +6,7 @@ const projects = [
     title: 'Printeby',
     type: 'Website Thương mại điện tử',
     desc: 'Nền tảng thương mại điện tử chuyên biệt, cung cấp trải nghiệm mua sắm mượt mà và quản lý sản phẩm hiệu quả.',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     tags: ['WordPress', 'WooCommerce', 'PHP'],
     demoUrl: 'https://printeby.com/'
   },
@@ -14,7 +14,7 @@ const projects = [
     title: 'Ommicom',
     type: 'Website Doanh nghiệp',
     desc: 'Hệ thống website doanh nghiệp với giao diện hiện đại, quản trị nội dung linh hoạt và tối ưu trải nghiệm người dùng.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     tags: ['Laravel', 'Vue.js', 'Tailwind'],
     demoUrl: 'https://ommicom.com/'
   },
@@ -22,7 +22,7 @@ const projects = [
     title: 'Printcart',
     type: 'Nền tảng Web-to-Print',
     desc: 'Giải pháp toàn diện cho ngành in ấn trực tuyến, tích hợp công cụ thiết kế và quản lý đơn hàng chuyên sâu.',
-    image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1586880244406-556ebe35f282?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     tags: ['Next.js 14', 'Laravel', 'React'],
     demoUrl: 'https://printcart.com/'
   }
