@@ -31,7 +31,7 @@ export default function Contact() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a 
-                href="https://zalo.me/0123456789" // Thay số Zalo ở đây
+                href="https://zalo.me/0355797746"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-colors shadow-lg"
@@ -40,7 +40,7 @@ export default function Contact() {
                 Chat qua Zalo
               </a>
               <a 
-                href="https://facebook.com/your-profile" // Thay link FB ở đây
+                href="https://www.facebook.com/DUNGHA2300/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-blue-800/50 hover:bg-blue-800/80 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors backdrop-blur-sm"
@@ -53,12 +53,12 @@ export default function Contact() {
             <div className="mt-10 pt-8 border-t border-blue-500/50 flex flex-col sm:flex-row items-center justify-center gap-6 text-blue-100">
               <div className="flex items-center gap-2">
                 <Phone size={18} />
-                <span>0123.456.789</span>
+                <span>0355.797.746</span>
               </div>
               <div className="hidden sm:block w-1 h-1 bg-blue-400 rounded-full"></div>
               <div className="flex items-center gap-2">
                 <Mail size={18} />
-                <span>contact@yourdomain.com</span>
+                <span>hoanganhdung13122000@gmail.com</span>
               </div>
             </div>
           </div>

@@ -3,25 +3,28 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'E-Commerce Shop',
-    type: 'Website Bán hàng',
-    desc: 'Hệ thống bán hàng trực tuyến với giỏ hàng, thanh toán VNPay, quản lý đơn hàng và dashboard admin.',
+    title: 'Printeby',
+    type: 'Website Thương mại điện tử',
+    desc: 'Nền tảng thương mại điện tử chuyên biệt, cung cấp trải nghiệm mua sắm mượt mà và quản lý sản phẩm hiệu quả.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    tags: ['React', 'Node.js', 'MongoDB', 'Tailwind']
+    tags: ['WordPress', 'WooCommerce', 'PHP'],
+    demoUrl: 'https://printeby.com/'
   },
   {
-    title: 'Corporate Portfolio',
+    title: 'Ommicom',
     type: 'Website Doanh nghiệp',
-    desc: 'Trang web giới thiệu công ty kiến trúc, hiển thị các dự án đã làm, tin tức và form liên hệ.',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    tags: ['Next.js', 'Framer Motion', 'CMS']
+    desc: 'Hệ thống website doanh nghiệp với giao diện hiện đại, quản trị nội dung linh hoạt và tối ưu trải nghiệm người dùng.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    tags: ['Laravel', 'Vue.js', 'Tailwind'],
+    demoUrl: 'https://ommicom.com/'
   },
   {
-    title: 'Quản lý Thư viện',
-    type: 'Đồ án Sinh viên',
-    desc: 'Hệ thống quản lý mượn trả sách, quản lý độc giả, thống kê báo cáo cho thư viện trường học.',
+    title: 'Printcart',
+    type: 'Nền tảng Web-to-Print',
+    desc: 'Giải pháp toàn diện cho ngành in ấn trực tuyến, tích hợp công cụ thiết kế và quản lý đơn hàng chuyên sâu.',
     image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    tags: ['Vue.js', 'Express', 'MySQL']
+    tags: ['Next.js 14', 'Laravel', 'React'],
+    demoUrl: 'https://printcart.com/'
   }
 ];
 
@@ -77,13 +80,15 @@ export default function Projects() {
                 </div>
 
                 <div className="flex items-center gap-3 pt-4 border-t border-slate-100">
-                  <button className="flex-1 flex items-center justify-center gap-2 bg-blue-50 hover:bg-blue-100 text-blue-700 py-2 rounded-lg text-sm font-semibold transition-colors">
+                  <a 
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 flex items-center justify-center gap-2 bg-blue-50 hover:bg-blue-100 text-blue-700 py-2 rounded-lg text-sm font-semibold transition-colors"
+                  >
                     <ExternalLink size={16} />
-                    Xem Demo
-                  </button>
-                  <button className="p-2 text-slate-400 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 rounded-lg transition-colors" title="Source Code">
-                    <Github size={20} />
-                  </button>
+                    Xem Website
+                  </a>
                 </div>
               </div>
             </motion.div>
